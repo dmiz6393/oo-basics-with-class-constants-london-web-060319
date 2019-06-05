@@ -13,5 +13,7 @@ GENRES =[]
   end
   
 def genre=(genre)
-
-end
+@genre=genre 
+GENRES<<genre 
+  end
+end 
